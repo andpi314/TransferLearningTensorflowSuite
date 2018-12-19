@@ -2,11 +2,16 @@
 A suite of pre-configurated python scripts and folder to easily execute a transfer learning process from a model to create your own model (frozen_graph.pb)
 
 You need to create six folder named as follow (be sure to use the exactly same name stated here):
--TransferLearningTensroflowSuite
+
+In TransferLearningTensroflowSuite:
 /Csv
+
 /Dataset
+
 /New_model
+
 /Pre_train_model
+
 /Training
 
 To execute transfer learning procedure you have to:
