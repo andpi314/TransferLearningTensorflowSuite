@@ -4,6 +4,7 @@ A suite of pre-configurated python scripts and folder to easily execute a transf
 You need to create six folder named as follow (be sure to use the exactly same name stated here):
 
 In TransferLearningTensroflowSuite:
+
 /Csv
 
 /Dataset
@@ -27,4 +28,4 @@ To execute transfer learning procedure you have to:
     tensorboard --logdir=training/ --host localhost --port 8080
 + create frozen graph with (change ???? to checkpoint number you want to use):
     python export_inference_graph.py --input_type image_tensor --pipeline_config_path training.config --trained_checkpoint_prefix training/model.ckpt-???? --output_directory New_model
-+ use frozen_inference_graph.pb in your prohects
++ use frozen_inference_graph.pb in your projects
