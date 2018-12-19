@@ -1,6 +1,10 @@
 # TransferLearningTensorflowSuite
 A suite of pre-configurated python scripts and folder to easily execute a transfer learning process from a model to create your own model (frozen_graph.pb)
 
+Step-by-step guide here.
+
+Note, you have to have [this repository](https://github.com/tensorflow/models) correctly installed, otherwise generate_tfrecors.py, train.py and export_inference_graph.py will not work. 
+
 You need to create six folder named as follow (be sure to use the exactly same name stated here):
 
 In TransferLearningTensroflowSuite:
