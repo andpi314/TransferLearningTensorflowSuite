@@ -3,13 +3,11 @@ A suite of pre-configurated python scripts and folder to easily execute a transf
 
 You need to create six folder named as follow (be sure to use the exactly same name stated here):
 -TransferLearningTensroflowSuite
---Csv
---Dataset
---New_model
---Pre_train_model
---Test_images
---Training
---[other repository's files]
+/Csv
+/Dataset
+/New_model
+/Pre_train_model
+/Training
 
 To execute transfer learning procedure you have to:
 + have your own dataset of train and test images, with their .xml PASCAL_VOC Format labels, in the Dataset folder
